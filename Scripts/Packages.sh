@@ -66,6 +66,9 @@ UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "mosdns"
 UPDATE_PACKAGE "modemdefine" "4IceG/luci-app-modemdefine" "main"
 UPDATE_PACKAGE "modem" "https://github.com/FUjr/modem_feeds" "main"
 UPDATE_PACKAGE "luci-app-onliner" "https://github.com/kiddin9/kwrt-packages" "main" "pkg"
+UPDATE_PACKAGE "adguardhome" "kenzok8/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "lucky" "kenzok8/openwrt-packages" "master" "pkg"
+
 
 UPDATE_PACKAGE "luci-app-wol" "VIKINGYFY/packages" "main" "pkg"
 UPDATE_PACKAGE "luci-app-gecoosac" "lwb1978/openwrt-gecoosac" "main"
