@@ -64,8 +64,8 @@ UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main"
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "mosdns"
 
 UPDATE_PACKAGE "modemdefine" "4IceG/luci-app-modemdefine" "main"
-UPDATE_PACKAGE "modem" "https://github.com/FUjr/modem_feeds" "main"
-UPDATE_PACKAGE "luci-app-onliner" "https://github.com/kiddin9/kwrt-packages" "main" "pkg"
+UPDATE_PACKAGE "modem" "FUjr/modem_feeds" "main"
+UPDATE_PACKAGE "luci-app-onliner" "kiddin9/kwrt-packages" "main" "pkg"
 UPDATE_PACKAGE "adguardhome" "kenzok8/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "lucky" "kenzok8/openwrt-packages" "master" "pkg"
 
