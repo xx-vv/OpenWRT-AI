@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -rf feeds/nss_packages/wwan
+rm -rf ../feeds/nss_packages/wwan
 #安装和更新软件包
 UPDATE_PACKAGE() {
 	local PKG_NAME=$1
