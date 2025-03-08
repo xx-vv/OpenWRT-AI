@@ -63,7 +63,7 @@ UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main"
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5"
 
 UPDATE_PACKAGE "modemdefine" "4IceG/luci-app-modemdefine" "main"
-UPDATE_PACKAGE "qmodem" "FUjr/modem_feeds" "main" "" "app driver"
+UPDATE_PACKAGE "qmodem" "FUjr/modem_feeds" "main"
 UPDATE_PACKAGE "adguardhome" "kenzok8/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "lucky" "kenzok8/openwrt-packages" "master" "pkg"
 
