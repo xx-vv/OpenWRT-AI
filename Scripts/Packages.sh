@@ -1,5 +1,4 @@
 #!/bin/bash
-rm -rf ../feeds/nss_packages/wwan
 #安装和更新软件包
 UPDATE_PACKAGE() {
 	local PKG_NAME=$1
@@ -64,8 +63,7 @@ UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main"
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5"
 
 UPDATE_PACKAGE "modemdefine" "4IceG/luci-app-modemdefine" "main"
-UPDATE_PACKAGE "qmodem" "FUjr/modem_feeds" "main"
-UPDATE_PACKAGE "luci-app-onliner" "kiddin9/kwrt-packages" "main" "pkg"
+UPDATE_PACKAGE "qmodem" "FUjr/modem_feeds" "main" "" "app driver"
 UPDATE_PACKAGE "adguardhome" "kenzok8/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "lucky" "kenzok8/openwrt-packages" "master" "pkg"
 
