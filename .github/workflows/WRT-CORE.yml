@@ -150,18 +150,13 @@ jobs:
           cd ./wrt/
 
           ./scripts/feeds update -a
-          rm -rf feeds/nss-packages/wwan
           ./scripts/feeds install -a
 
-      - name: Remove Unwanted Package
-        run: |
-          cd ./wrt/
-          rm -rf feeds/nss-packages/wwan
 
       - name: Custom Packages
         run: |
           cd ./wrt/package/
-          rm -rf nss-packages/wwan
+
           $GITHUB_WORKSPACE/Scripts/Packages.sh
           $GITHUB_WORKSPACE/Scripts/Handles.sh
 
@@ -172,7 +167,7 @@ jobs:
           cat $GITHUB_WORKSPACE/Config/$WRT_CONFIG.txt $GITHUB_WORKSPACE/Config/GENERAL.txt >> .config
 
           $GITHUB_WORKSPACE/Scripts/Settings.sh
-          rm -rf feeds/nss-packages/wwan
+
           make defconfig -j$(nproc) && make clean -j$(nproc)
 
       - name: Download Packages
