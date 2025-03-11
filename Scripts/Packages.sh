@@ -68,7 +68,8 @@ UPDATE_PACKAGE "qmodem" "FUjr/modem_feeds" "main"
 UPDATE_PACKAGE "adguardhome" "kenzok8/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "lucky" "kenzok8/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-app-advanced" "kenzok8/openwrt-packages" "master" "pkg"
-UPDATE_PACKAGE "luci-app-onliner" "xx-vv/luci-app-onliner" "main"
+UPDATE_PACKAGE "luci-app-qosmate" "hudra0/luci-app-qosmate" "main"
+UPDATE_PACKAGE "qosmate" "hudra0/qosmate" "main"
 
 
 UPDATE_PACKAGE "luci-app-wol" "VIKINGYFY/packages" "main" "pkg"
