@@ -151,6 +151,10 @@ jobs:
 
           ./scripts/feeds update -a
           ./scripts/feeds install -a
+
+      - name: Remove Unwanted Package
+        run: |
+          cd ./wrt/
           rm -rf feeds/nss-packages/wwan
 
       - name: Custom Packages
