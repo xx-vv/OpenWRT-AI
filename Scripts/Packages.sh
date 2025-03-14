@@ -70,9 +70,17 @@ UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"
 UPDATE_PACKAGE "qmodem" "FUjr/modem_feeds" "main"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
-if [[ $WRT_REPO != *"immortalwrt"* ]]; then
-	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
-fi
+UPDATE_PACKAGE "modemdefine" "4IceG/luci-app-modemdefine" "main"
+UPDATE_PACKAGE "adguardhome" "kenzok8/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "lucky" "kenzok8/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "luci-app-advanced" "kenzok8/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "luci-app-qosmate" "hudra0/luci-app-qosmate" "main"
+UPDATE_PACKAGE "qosmate" "hudra0/qosmate" "main"
+
+
+#if [[ $WRT_REPO != *"immortalwrt"* ]]; then
+#	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
+#fi
 
 #更新软件包版本
 UPDATE_VERSION() {
