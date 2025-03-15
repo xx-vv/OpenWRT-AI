@@ -77,6 +77,8 @@ UPDATE_PACKAGE "lucky" "kenzok8/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-app-advanced" "kenzok8/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-app-qosmate" "hudra0/luci-app-qosmate" "main"
 UPDATE_PACKAGE "qosmate" "hudra0/qosmate" "main"
+UPDATE_PACKAGE "quectel_cm_5G" "xx-vv/quectel_cm_5G" "main"
+UPDATE_PACKAGE "luci-app-onliner" "xx-vv/luci-app-onliner" "main"
 
 
 #if [[ $WRT_REPO != *"immortalwrt"* ]]; then
