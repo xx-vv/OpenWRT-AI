@@ -65,7 +65,7 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-ap
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 UPDATE_PACKAGE "modemdefine" "4IceG/luci-app-modemdefine" "main"
-UPDATE_PACKAGE "luci-app-adguardhome" "xptsp/luci-app-adguardhome" "main"
+UPDATE_PACKAGE "luci-app-adguardhome" "kiddin9/kwrt-packages" "main" "pkg"
 UPDATE_PACKAGE "lucky" "kenzok8/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-app-advanced" "kenzok8/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-app-qosmate" "hudra0/luci-app-qosmate" "main"
