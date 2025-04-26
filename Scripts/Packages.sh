@@ -75,7 +75,7 @@ UPDATE_PACKAGE "luci-app-onliner" "xx-vv/luci-app-onliner" "main"
 UPDATE_PACKAGE "luci-app-partexp" "sirpdboy/luci-app-partexp" "main"
 
 #if [[ $WRT_REPO != *"immortalwrt"* ]]; then
-	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
+#	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
 #fi
 
 #更新软件包版本
